@@ -24,23 +24,19 @@ const HeroSection = () => {
                 />
             </HeroBg>
             <HeroContent>
-                <HeroH1>
-                    Virtual Banking Made Easy
-                </HeroH1>
-                <HeroP>
-                    Sign up for a free account and start using your 
-                    bank account in minutes.
-                </HeroP>
+                 <HeroP>A DAMA DA LUZ</HeroP>
+                 <HeroH1> LUX </HeroH1>
+                 <HeroP>Luxanna Stemmaguarda nasceu em Demacia, um reino insular onde habilidades mágicas são vistas com medo e desconfiança.</HeroP>
+             
                 <HeroBtnWrapper>
                     <Button to="signup" 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
-                            primary="true"
-                            dark="true"
+                            primary="false"
+                            light="false"
 
-                    > 
-                        Get started 
-                        {hover ? <ArrowForward/> : <ArrowRight/>}
+                    >  Saiba Mais 
+                    {hover ? <ArrowForward/> : <ArrowRight/>}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

@@ -19,14 +19,14 @@ export const Sidebar = ({isOpen, toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink to="about" onClick={toggle}>About</SidebarLink>
-                    <SidebarLink to="discover" onClick={toggle}>Discover</SidebarLink>
-                    <SidebarLink to="services" onClick={toggle}>Services</SidebarLink>
-                    <SidebarLink to="signup" onClick={toggle}>Sign Up</SidebarLink>
+                    <SidebarLink to="about" onClick={toggle}>Sobre</SidebarLink>
+                    <SidebarLink to="discover" onClick={toggle}>Habilidades</SidebarLink>
+                    <SidebarLink to="services" onClick={toggle}>Skins</SidebarLink>
+                    <SidebarLink to="signup" onClick={toggle}> Relacionados</SidebarLink>
                 </SidebarMenu>
                 <SideBtnWrapper>
                     <SidebarRoute to="/">
-                        Sign In
+                       Jogue agora
                     </SidebarRoute>
                 </SideBtnWrapper>
             </SidebarWrapper>

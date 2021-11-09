@@ -11,11 +11,11 @@ Subtitle,
 BtnWrapper,
 Column2,
 ImgWrapper,
-Img
+Img,
 } from "./InfoElements"
 import {Button} from "../ButtonElement"
 
-const InfoSection = ({primary, dark, dark2, lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt}) => {
+const InfoSection = ({primary, dark, dark2, lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, show}) => {
     return (
         <InfoContainer lightBg={lightBg} id={id}>
             <InfoWrapper>
@@ -33,6 +33,7 @@ const InfoSection = ({primary, dark, dark2, lightBg, id, imgStart, topLine, ligh
                                     spy={true}
                                     exact="true"
                                     offset={-80}
+                                    show={show ? 1 : 0}
                                     primary={primary ? 1 : 0}
                                     dark={dark ? 1 : 0}
                                     dark2={dark2 ? 1 : 0}

@@ -9,9 +9,7 @@ NavbarContainer,
 MobileIcon, 
 NavItem, 
 NavMenu, 
-NavLinks,
-NavBtn,
-NavBtnLink
+NavLinks
 } from "./NavbarElements"
 
 
@@ -52,7 +50,7 @@ const Navbar = ({toggle}) => {
                                   smooth={true} 
                                   duration={500} 
                                   spy={true} 
-                                  exact={true} 
+                                  exact={`${true}`}
                                   offset={-80}
                                   activeClass="active"
                          >  About </NavLinks>
@@ -62,7 +60,7 @@ const Navbar = ({toggle}) => {
                                   smooth={true} 
                                   duration={500} 
                                   spy={true} 
-                                  exact={true} 
+                                  exact={`${true}`}
                                   offset={-80}
                                   activeClass="active">
                             Discover
@@ -73,7 +71,7 @@ const Navbar = ({toggle}) => {
                                   smooth={true} 
                                   duration={500} 
                                   spy={true} 
-                                  exact={true} 
+                                  exact={`${true}`}
                                   offset={-80}
                                   activeClass="active"
                         >
@@ -85,7 +83,7 @@ const Navbar = ({toggle}) => {
                                   smooth={true} 
                                   duration={500} 
                                   spy={true} 
-                                  exact={true} 
+                                  exact={`${true}`}
                                   offset={-80}
                                   activeClass="active"
                         >
@@ -93,9 +91,10 @@ const Navbar = ({toggle}) => {
                         </NavLinks>
                      </NavItem>
                 </NavMenu>
-                <NavBtn>
+                {/*<NavBtn>
                     <NavBtnLink to='/signin'>Login</NavBtnLink>
-                </NavBtn>
+                </NavBtn>*/}
+                
             </NavbarContainer>
         </Nav>
         </IconContext.Provider>

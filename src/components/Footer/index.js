@@ -25,7 +25,7 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrapper>
-                <FooterLinkContainer>
+           { /*    <FooterLinkContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                            <FooterLinkTitle>  About us </FooterLinkTitle>
@@ -63,7 +63,7 @@ const Footer = () => {
                             <FooterLink to="/"> Twitter </FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
-                </FooterLinkContainer>
+                </FooterLinkContainer>*/}
                 <SocialMedia>
                     <SocialMediaWrapper>
                         <SocialLogo to="/" onClick={toggleHome}>

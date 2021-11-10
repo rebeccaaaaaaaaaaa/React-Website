@@ -15,7 +15,7 @@ Img,
 } from "./InfoElements"
 import {Button} from "../ButtonElement"
 
-const InfoSection = ({primary, dark, dark2, lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt, show}) => {
+const InfoSection = ({show, primary, dark, dark2, lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, img, alt}) => {
     return (
         <InfoContainer lightBg={lightBg} id={id}>
             <InfoWrapper>

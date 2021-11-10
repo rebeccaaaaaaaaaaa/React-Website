@@ -13,6 +13,7 @@ export const Button = styled(Link)`
     border: none;
     cursor: pointer;
     display: flex;
+    display: ${({show}) => (show ? 'block' : 'none')};
     justify-content: center;
     align-items: center;
     transition: all 0.3s ease-in-out;

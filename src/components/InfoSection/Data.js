@@ -22,16 +22,17 @@ export const homeObjTwo = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Lorem Ipsum',
-    headline: 'Lorem ipsum dolor sit amet',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
-    buttonLabel: 'Learn More',
+    topLine: 'Habilidades',
+    headline: 'Passiva: Iluminação',
+    description: 'As habilidades de Lux marcam o alvo com energia luminosa por 6s. Ao atacar o inimigo marcado, Lux incendeia a energia, causando dano mágico com base no seu nível.',
+    buttonLabel: 'Ver habilidade',
     imgStart: true,
-    img: require('../../images/image.svg').default,
+    img: require('../../images/lux-passiva.jfif').default,
     alt: 'discover',
     dark: true,
     primary: true,
-    darkText: true
+    darkText: true,
+    show: false
 };
 
 export const homeObjThree = {
@@ -48,5 +49,6 @@ export const homeObjThree = {
     alt: 'signup',
     dark: true,
     primary: true,
-    darkText: true
+    darkText: true,
+    show: true
 };

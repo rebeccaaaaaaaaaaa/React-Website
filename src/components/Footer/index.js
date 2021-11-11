@@ -3,11 +3,6 @@ import {FaFacebook, FaInstagram, FaTwitter, FaYoutube} from 'react-icons/fa'
 import {
 FooterContainer,
 FooterWrapper,
-FooterLinkContainer,
-FooterLinksWrapper,
-FooterLinkItems,
-FooterLinkTitle,
-FooterLink,
 SocialMedia,
 SocialMediaWrapper,
 SocialLogo,

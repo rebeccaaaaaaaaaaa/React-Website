@@ -35,6 +35,78 @@ export const homeObjTwo = {
     show: false
 };
 
+export const homeHabilidade2 = {
+    id: '',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Habilidades',
+    headline: 'Q: Ligação da Lux',
+    description: 'Lux dispara uma esfera luminosa capaz de prender até dois alvos. Ambos os atingidos sofrem a mesma quantidade de dano mágico e ficam enraizados por 2s.',
+    buttonLabel: 'Ver habilidade',
+    imgStart: false,
+    img: require('../../images/lux-q.jfif').default,
+    alt: 'discover',
+    dark: true,
+    primary: true,
+    darkText: true,
+    show: false
+};
+
+export const homeHabilidade3 = {
+    id: '',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Habilidades',
+    headline: 'W: Barreira Prismática',
+    description: 'Lux lança sua varinha e a luz concede escudo aos aliados que forem atingidos. Ao chegar em seu destino, a varinha retorna para as mãos de Lux, acumulando o efeito da habilidade.',
+    buttonLabel: 'Ver habilidade',
+    imgStart: true,
+    img: require('../../images/lux-w.jfif').default,
+    alt: 'discover',
+    dark: true,
+    primary: true,
+    darkText: true,
+    show: false
+};
+
+export const homeHabilidade4 = {
+    id: '',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Habilidades',
+    headline: 'E: Singularidade Lucente',
+    description: 'Lux dispara uma luz irregular, criando uma zona que reduz a velocidade de movimento dos inimigos. Depois de 5s, os alvos que estiverem sobre a área de lentidão sofrem dano mágico. Ativar a habilidade novamente faz com que a luz detone mais rápido.',
+    buttonLabel: 'Ver habilidade',
+    imgStart: false,
+    img: require('../../images/lux-e.jfif').default,
+    alt: 'discover',
+    dark: true,
+    primary: true,
+    darkText: true,
+    show: false
+};
+
+export const homeHabilidade5 = {
+    id: '',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Habilidades',
+    headline: 'R: Centelha Final',
+    description: 'Lux usa sua energia acumulada para disparar um feixe de luz que causa dano mágico em todos os inimigos que estiverem na área. Ao usar Centelha Final, ela aciona e reinicia o efeito de sua passiva (Iluminação).    ',
+    buttonLabel: 'Ver habilidade',
+    imgStart: true,
+    img: require('../../images/lux-r.jfif').default,
+    alt: 'discover',
+    dark: true,
+    primary: true,
+    darkText: true,
+    show: false
+};
+
 export const homeObjThree = {
     id: 'signup',
     lightBg: true,

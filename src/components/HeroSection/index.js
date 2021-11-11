@@ -12,6 +12,7 @@ const HeroSection = () => {
         setHover(!hover)
     }
 
+
     return (
         <HeroContainer>
             <HeroBg>
@@ -28,12 +29,18 @@ const HeroSection = () => {
                  <HeroH1> LUX </HeroH1>
                  <HeroP>Luxanna Stemmaguarda nasceu em Demacia, um reino insular onde habilidades mágicas são vistas com medo e desconfiança.</HeroP>
              
-                <HeroBtnWrapper>
-                    <Button to="signup" 
+                <HeroBtnWrapper >
+                    <Button to="about" 
                             onMouseEnter={onHover} 
                             onMouseLeave={onHover}
                             primary="false"
                             light="false"
+                            show="true"
+                            smooth={true} 
+                            duration={500} 
+                            spy={true} 
+                            exact={`${true}`}
+                            offset={-80}
 
                     >  Saiba Mais 
                     {hover ? <ArrowForward/> : <ArrowRight/>}

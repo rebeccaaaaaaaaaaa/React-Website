@@ -112,15 +112,15 @@ export const homeObjThree = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Lorem Ipsum',
-    headline: 'Lorem ipsum dolor sit amet',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ',
-    buttonLabel: 'Learn More',
+    topLine: 'O PODER DE DEMACIA',
+    headline: 'GAREN',
+    description: 'Um guerreiro nobre e orgulhoso, Garen faz parte da Vanguarda Destemida. Popular entre seus companheiros e respeitado o suficiente por seus inimigos, sua reputação é nada mais do que o esperado de um herdeiro da prestigiosa família Stemmaguarda, encarregada de defender Demacia e seus ideais. Vestido com uma armadura resistente à magia e empunhando uma poderosa espada, Garen está sempre pronto para confrontar magos e feiticeiros no campo de batalha, em um verdadeiro furacão de aço virtuoso.',
+    buttonLabel: '',
     imgStart: false,
-    img: require('../../images/image.svg').default,
-    alt: 'signup',
+    img: require('../../images/garen.jpg').default,
+    alt: '',
     dark: true,
     primary: true,
     darkText: true,
-    show: true
+    show: false
 };

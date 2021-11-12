@@ -54,7 +54,6 @@ export const ServicesWrapper = styled.div`
 export const ServicesCard = styled.div`
     background-color: #fff;
     border-radius: 10px;
-    padding: 30px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -75,8 +74,8 @@ export const ServicesCard = styled.div`
 `;
 
 export const ServicesIcons = styled.img`
-    height: 160px;
-    width: 160px;
+    height: 100%;
+    width: 100%;
     margin-bottom: 10px;
 
 `;
